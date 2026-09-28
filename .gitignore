@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Local databases & artifacts
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+data/
+logs/
+.DS_Store

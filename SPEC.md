@@ -58,14 +58,15 @@ Ingest marktplaats & ebay listings via Scrapling crawler and use DuckDB/ClickHou
 
 ## 4. Phased Implementation Milestones
 - [x] **Phase 1: Architecture & OpenSpec Specification** (Completed)
-- [ ] **Phase 2: Core Scaffold & Dependency Alignment**
-- [ ] **Phase 3: Business Logic Implementation**
-- [ ] **Phase 4: Verification & Automated Integration Test Gate (JEV)**
+- [x] **Phase 2: Core Scaffold & Dependency Alignment** (Completed: models, DuckDB store, crawler)
+- [x] **Phase 3: Business Logic Implementation** (Completed: ParityChecker, ApifyTriggerClient, Rich CLI)
+- [x] **Phase 4: Verification & Automated Integration Test Gate (JEV)** (Completed: 6 unit & integration tests passing)
 
 ---
 
 ## 5. Verification Criteria (JEV Gate)
-1. **Security:** Zero secrets or access tokens committed or logged in plaintext.
-2. **Deterministic Output:** Executing with sample payloads yields reproducible results.
-3. **Resilience:** Unreachable network or missing credentials fails with structured exit codes.
-4. **Clean Exit:** All file descriptors, child subprocesses, and temporary artifacts cleaned up.
+1. **Security:** Zero secrets or access tokens committed or logged in plaintext. (Verified)
+2. **Deterministic Output:** Executing with sample payloads yields reproducible results. (Verified)
+3. **Resilience:** Unreachable network or missing credentials fails with structured exit codes. (Verified)
+4. **Clean Exit:** All file descriptors, child subprocesses, and temporary artifacts cleaned up. (Verified)
+
