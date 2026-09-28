@@ -1,0 +1,1 @@
+Autonomous Market Scraping & Fast Parity Check - Autonomous prototype for: Ingest marktplaats & ebay listings via Scrapling crawler and use DuckDB/ClickHouse local parity check before triggering apify.
